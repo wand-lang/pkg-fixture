@@ -1,0 +1,4 @@
+import String
+
+-- The text in upper case: a module below the package root.
+let shout text = String.upper text
