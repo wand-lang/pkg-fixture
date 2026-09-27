@@ -1,10 +1,10 @@
 -- The root module of the fixture. Its name has a hyphen, so an importer
 -- names it with a `let`.
 
-let version = "0.1.1"
+let version = "0.2.0"
 
--- A greeting for someone.
-let greet name = "hello %{name}"
+-- A greeting for someone, in the words given.
+let greet greeting name = "%{greeting} %{name}"
 
 -- A farewell for someone.
 let bye name = "goodbye %{name}"
