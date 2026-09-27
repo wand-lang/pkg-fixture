@@ -3,9 +3,9 @@
 }
 
 -- DO NOT EDIT: interface, written by `wand p`
-version 0.1.1
+version 0.2.0
 
 pkg-fixture.bye     : 'a -> String
-pkg-fixture.greet   : 'a -> String
+pkg-fixture.greet   : 'a -> 'b -> String
 pkg-fixture.version : String
 words.shout : String -> String
