@@ -33,7 +33,7 @@ with. Every later wand before 1.0 accepts it.
 
 ## What the check does
 
-Each step starts from a new, empty cache, so every version comes from GitHub.
+The check starts with a new, empty cache, so every version comes from GitHub.
 
 1. `wand p init` a package that uses the fixture.
 2. `wand p add github.com/wand-lang/pkg-fixture@0.1.0`.
